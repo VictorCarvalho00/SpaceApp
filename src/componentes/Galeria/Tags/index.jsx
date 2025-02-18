@@ -8,7 +8,6 @@ gap: 64px;
 margin-top: 56px;
 `
 
-
 const TagTitulo = styled.h3`
     color: #D9D9D9; 
       font-size: 24px;
@@ -42,9 +41,7 @@ const Tags = () => {
                 {tags.map(tag => <Tag key={tag.id}>{tag.titulo}</Tag>)}
             </Div>
         </TagsContainer>
-
     );
-
 }
 
 export default Tags

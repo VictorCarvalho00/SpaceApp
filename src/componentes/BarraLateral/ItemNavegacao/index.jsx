@@ -5,8 +5,8 @@ const ItemListaEstilizado = styled.li`
     line-height: 29px;
     margin-bottom: 30px;
     cursor: pointer;
-    color: ${ props => props.$Ativo ? '#7b78E5' : '#D9D9D9'};
-    font-family: ${ props => props.$Ativo ? 'GandhiSansBold' : 'GandhiSansRegular'};
+    color: ${props => props.$Ativo ? '#7b78E5' : '#D9D9D9'};
+    font-family: ${props => props.$Ativo ? 'GandhiSansBold' : 'GandhiSansRegular'};
     display: flex;
     align-items: center;
     gap: 22px;
